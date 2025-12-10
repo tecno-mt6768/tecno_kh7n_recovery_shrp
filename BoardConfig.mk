@@ -267,7 +267,6 @@ SHRP_EXPRESS := true
 SHRP_DEV_USE_HEX := true
 SHRP_DARK := true
 
-
 # Setting up custom addons folder
 SHRP_EXTERNAL_ADDON_PATH := "device/tecno/KH7n/addon"
 
