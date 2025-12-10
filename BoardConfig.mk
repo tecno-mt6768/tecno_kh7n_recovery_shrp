@@ -250,5 +250,52 @@ TW_HAS_MTP := true
 # USB Mounting
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 
+#SHRP_Variables
+SHRP_AB := true
+
+SHRP_PATH := device/tecno/KH7n
+SHRP_MAINTAINER := isus203
+SHRP_DEVICE_CODE := KH7n
+
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_REC := /dev/block/by-name/boot
+SHRP_REC_TYPE := Normal
+SHRP_DEVICE_TYPE := A/B
+SHRP_EXPRESS := true
+SHRP_DEV_USE_HEX := true
+SHRP_DARK := true
+
+
+# Setting up custom addons folder
+SHRP_EXTERNAL_ADDON_PATH := "device/tecno/KH7n/addon"
+
+# Added treblize addon
+SHRP_EXTERNAL_ADDON_1_NAME := "Imei Backup"
+SHRP_EXTERNAL_ADDON_1_INFO := "Backup Imei to main memory"
+SHRP_EXTERNAL_ADDON_1_FILENAME := "Imei-Backup.zip"
+SHRP_EXTERNAL_ADDON_1_BTN_TEXT := "Backup"
+SHRP_EXTERNAL_ADDON_1_SUCCESSFUL_TEXT := "For backup"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_1 := true
+
+# Added detreblize addon
+SHRP_EXTERNAL_ADDON_2_NAME := "Imei Backup sd"
+SHRP_EXTERNAL_ADDON_2_INFO := "Backup Imei to SD card"
+SHRP_EXTERNAL_ADDON_2_FILENAME := "Imei-Backup_sd.zip"
+SHRP_EXTERNAL_ADDON_2_BTN_TEXT := "Backup"
+SHRP_EXTERNAL_ADDON_2_SUCCESSFUL_TEXT := "For backup"
+SHRP_INC_IN_REC_EXTERNAL_ADDON_2 := true
+
+# Including Magisk into recovery ramdisk
+INC_IN_REC_MAGISK := true
+SHRP_EXCLUDE_MAGISK_FLASH := true
+
+# Including default addons into recovery ramdisk
+INC_IN_REC_ADDON_1 := true
+INC_IN_REC_ADDON_2 := true
+INC_IN_REC_ADDON_3 := true
+INC_IN_REC_ADDON_4 := true
+
 # Device 
 TW_DEVICE_VERSION := Tecno Spark 9 Pro - isus203
