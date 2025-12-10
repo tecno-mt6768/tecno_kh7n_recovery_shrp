@@ -1,4 +1,4 @@
-# TWRP device tree for  TECNO SPARK 9 Pro (KH7n)
+# SHRP device tree for  TECNO SPARK 9 Pro (KH7n)
 ## Device image
 ![kh7n](https://github.com/tecno-mt6768/tecno_kh7n_twrp/blob/main/Device_image/30065104b.jpg)
 
