@@ -257,7 +257,7 @@ SHRP_MAINTAINER := isus203
 SHRP_DEVICE_CODE := KH7n
 
 SHRP_EXTERNAL := /external_sd
-SHRP_INTERNAL := /sdcard
+SHRP_INTERNAL := /storage
 SHRP_OTG := /usbotg
 SHRP_REC := /dev/block/by-name/boot
 SHRP_REC_TYPE := Normal
