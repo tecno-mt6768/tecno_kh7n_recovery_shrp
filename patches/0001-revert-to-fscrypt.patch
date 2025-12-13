@@ -1,0 +1,17 @@
+From 512b2ae4d95cff87617b5d74401ba0c98f54e175 Mon Dec 12 00:00:00 2025
+From: lopestom <guillopes2002@gmail.com>
+Date: Thu, 11 Dec 2025 07:49:21 -0300
+Subject: [PATCH] libfscrypttwrp revert line whole_static_libs to libfscrypt
+
+--- Android.bp	2025-12-11 07:49:05.216102243 -0300
++++ Android.bp	2025-12-11 07:49:16.965089309 -0300
+@@ -104,7 +104,7 @@
+         "liblogwrap",
+         "libdm",
+         "libext2_uuid",
+-        "libfscrypttwrp",
++        "libfscrypt",
+         "libfstab",
+     ],
+     cppflags: [
+
